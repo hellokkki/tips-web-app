@@ -1,0 +1,19 @@
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
