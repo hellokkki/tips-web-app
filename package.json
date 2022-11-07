@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "tips",
-    "sass-dev": "sass --watch --update --style=expanded scss/main.scss:style/css"
+    "sass-dev": "sass --watch --update --style=expanded scss/main.scss:stylesheets/stylesheet.css"
   },
   "repository": {
     "type": "git",
