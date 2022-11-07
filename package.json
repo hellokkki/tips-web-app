@@ -1,0 +1,19 @@
+{
+  "name": "tips-web-app",
+  "version": "1.0.0",
+  "description": "scss compiler for tips-web-app",
+  "main": "script.js",
+  "scripts": {
+    "test": "tips"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellokkki/tips-web-app.git"
+  },
+  "author": "viktor hellokkki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellokkki/tips-web-app/issues"
+  },
+  "homepage": "https://github.com/hellokkki/tips-web-app#readme"
+}
