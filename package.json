@@ -4,7 +4,8 @@
   "description": "scss compiler for tips-web-app",
   "main": "script.js",
   "scripts": {
-    "test": "tips"
+    "test": "tips",
+    "sass-dev": "sass --watch --update --style=expanded scss/main.scss:style/css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/hellokkki/tips-web-app/issues"
   },
-  "homepage": "https://github.com/hellokkki/tips-web-app#readme"
+  "homepage": "https://github.com/hellokkki/tips-web-app#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
 }
