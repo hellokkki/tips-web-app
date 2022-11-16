@@ -1,1 +1,31 @@
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    
+    text-align: center;
+    transition: all .5s ease-in-out;
+    
+    &--close-create-form::after {
+          content: "\00d7"; /* This will render the 'X' */
+    
+
+          width: 1.5rem;
+          height: 1.5rem;
+    }
+
+    &--add-one-person {
+       width: 8rem;
+       height: 6rem;
+       border-radius: 3rem;
+
+       box-shadow: black 0rem 3rem 3rem;
+       color: gold;
+       background-color: black;
+
+       &:hover {
+        transform: translateY(-1.5rem);
+        box-shadow: black 0rem 6rem 7rem;
+       }
+    }
+}

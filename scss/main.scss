@@ -1,9 +1,10 @@
 @import 'abstracts/variables.scss';
 @import 'abstracts/mixins.scss';
 @import 'abstracts/utilites.scss';
+@import 'abstracts/errors.scss';
 
 @import 'components/blocks.scss';
 @import 'components/buttons.scss';
 @import 'components/sections.scss';
 
-@import 'home/home.scss'
+@import 'home/home.scss';

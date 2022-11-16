@@ -1,0 +1,10 @@
+//semantic
+nav.navigation {
+    height: 4rem;
+    border: 1px solid black;
+    @include flex(row nowrap, baseline, 4rem);
+}
+
+.section {
+    width: 100%;
+}

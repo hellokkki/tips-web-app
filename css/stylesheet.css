@@ -1,3 +1,65 @@
+@charset "UTF-8";
+.hidden {
+  display: none;
+}
+
+.error--name-validation {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.block {
+  position: relative;
+}
+.block--create-personal {
+  width: 50rem;
+  height: 20rem;
+  padding-top: 7rem;
+  background-color: #61429E;
+}
+.block--create-personal__once {
+  width: 10rem;
+  height: 8rem;
+  padding-bottom: 4rem;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.btn--close-create-form::after {
+  content: "×"; /* This will render the 'X' */
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.btn--add-one-person {
+  width: 8rem;
+  height: 6rem;
+  border-radius: 3rem;
+  box-shadow: black 0rem 3rem 3rem;
+  color: gold;
+  background-color: black;
+}
+.btn--add-one-person:hover {
+  transform: translateY(-1.5rem);
+  box-shadow: black 0rem 6rem 7rem;
+}
+
+nav.navigation {
+  height: 4rem;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: baseline;
+  gap: 4rem;
+}
+
+.section {
+  width: 100%;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
